@@ -11,7 +11,7 @@ const Jogo = conn.define("Jogo", {
         allowNull: false,
     },
     precoBase: {
-        type: DataTypes.STRING,
+        type: DataTypes.DOUBLE,
         allowNull: false,
     },
 });
